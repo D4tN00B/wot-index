@@ -11,6 +11,7 @@ body {
     font-family: 'DM Sans', sans-serif;
     color: #FFFFFF;
     z-index: 6;
+    margin: 0;
 }
 
 .side_nav {

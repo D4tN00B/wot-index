@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "DM Sans";
+    font-family: "DM Sans" 36pt;
     font-style: normal;
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/dmsans/v14/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxRSW32.woff2) format('woff2');
@@ -77,7 +77,7 @@ body {
 .super_heading {
     color: #FFF;
     font-size: 6.5em;
-    font-weight: 1000;
+    font-weight: 900;
 }
 
 .super_subheading {

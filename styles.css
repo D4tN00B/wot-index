@@ -71,22 +71,22 @@ body {
     top: 30px;
 }
 
-h1 {
+.super_heading {
     color: #FFF;
     text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.50);
     font-family: "DM Sans" 36pt;
     font-size: 6.5em;
     font-style: normal;
     font-weight: 900;
-    line-height: 30px;
+    line-height: normal;
 }
 
-h2 {
+.super_subheading {
     color: #FFF;
     text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.50);
     font-family: "DM Sans" 36pt;
     font-size: 3em;
     font-style: normal;
     font-weight: 400;
-    line-height: 18px;
+    line-height: normal;
 }

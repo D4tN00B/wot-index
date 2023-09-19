@@ -20,13 +20,14 @@ body {
     height: 100%;
     background-color: #151515;
     z-index: 2;
-    top: 119px;
+    /*top: 119px;*/
     left: 0;
     overflow-x: hidden;
     position: fixed;
+    box-shadow: 7px 0px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.side_nav_button {
+.home_button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,4 +44,21 @@ body {
 .wi_logo {
     width: 110px;
     height: 67px;
+}
+
+.banner {
+    position: fixed;
+    display: block;
+    width: 100% - 227px;
+    height: auto;
+    left: 227px;
+    z-index: 1;
+    flex-shrink: 0;
+}
+
+.home_page_banner {
+    width: 100%;
+    height: 100%;
+    fill: url(images/homepage/banner.png) lightgray 50%/cover no-repeat;
+    filter: drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.14));
 }
